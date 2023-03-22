@@ -9,10 +9,12 @@ using namespace std;
 
 int main()
 {
+    //decalring my variables
     double hours; 
     double total; 
 
-    cout << "Enter the Hours Worked: ";
+    //Prompting a question to the user
+    cout << "Enter the Hours Worked: "; 
     cin >> hours;
 
     if( hours <= 40)
